@@ -16,5 +16,6 @@ npm run preview  # serve the built dist/
 ---
 
 - Classic Snake (canvas, vanilla TS).
-- Live: https://vibe-snake.aj-thilakan.workers.dev
+- Live: https://vibe-snake.pages.dev
+- Warm-up build — credit to [Nuno's 30DaysOfVibeCoding](https://github.com/nunocoracao/30DaysOfVibeCoding) for the games-as-harness-practice idea.
 - Part of my [vibe30 challenge](https://ajthilakan.com/posts/quick-update-retooling/#thread-2--vibe-30-or-60-challenge).
