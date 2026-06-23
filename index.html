@@ -3,11 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>vibe-starter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Snake — vibe30</title>
   </head>
   <body>
-    <div id="app"></div>
+    <main id="app">
+      <header class="hud">
+        <h1>snake</h1>
+        <div class="scores">
+          <span>score <strong id="score">0</strong></span>
+          <span>best <strong id="best">0</strong></span>
+        </div>
+      </header>
+      <div class="board">
+        <canvas id="game" width="400" height="400" aria-label="Snake game board"></canvas>
+        <div id="overlay" class="overlay">
+          <p id="overlay-title">snake</p>
+          <p id="overlay-sub" class="sub">press space or tap to start</p>
+        </div>
+      </div>
+      <footer class="controls">
+        <button id="restart" type="button">new game</button>
+        <p class="hint">arrows / WASD · space to pause · swipe on mobile</p>
+        <p class="credit">vibe30 · <a href="https://ajthilakan.com">ajthilakan.com</a></p>
+      </footer>
+    </main>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
